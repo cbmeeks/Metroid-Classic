@@ -1,0 +1,21 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        block content
+        script(src='javascripts/melonJS-0.9.9-min.js')
+        script(src='javascripts/plugins/debugPanel.js')
+        script(src='javascripts/metroid_classic/app.js')
+        script(src='javascripts/metroid_classic/resources.js')
+        script(src='javascripts/metroid_classic/utils/lodash.min.js')
+
+        script(src='javascripts/metroid_classic/entities/base/gameEntity.js')
+        script(src='javascripts/metroid_classic/entities/base/animatedEntity.js')
+        script(src='javascripts/metroid_classic/entities/players/samusEntity.js')
+
+
+        script(src='javascripts/metroid_classic/screens/title.js')
+        script(src='javascripts/metroid_classic/screens/play.js')
+
